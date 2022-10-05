@@ -1,0 +1,6 @@
+{
+  "shiny_spawn": {
+	"subtitle": "spawn-alerts.subtitle.shiny_spawn",
+	"sounds": [ "spawn-alerts:shiny_spawn" ]
+  }
+}
