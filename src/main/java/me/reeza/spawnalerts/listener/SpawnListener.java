@@ -29,7 +29,7 @@ public final class SpawnListener {
 			final PixelmonEntity entity = pokemonSpawn.getOrCreateEntity();
 			final Pokemon pokemon = pokemonSpawn.pokemon;
 
-			if (!entity.hasOwner() && pokemon.isShiny()) {
+			if (!entity.hasOwner() && pokemon.isShiny() && !entity.isBossPokemon()) {
 				final AxisAlignedBB boundingBox = new AxisAlignedBB(pokemonSpawn.spawnLocation.location.pos).grow(64);
 				final List<PlayerEntity> players = entity.world.getLoadedEntitiesWithinAABB(PlayerEntity.class, boundingBox);
 
