@@ -11,7 +11,7 @@ logoFile = "logo.png"
 credits = "Nintendo for the idea and the sound effect."
 authors = "ReezaVT"
 description = '''
-A Pixelmon Reforged addon which adds customizable spawn alerts for Pokemon.
+A Pixelmon Reforged addon which adds customizable spawn alerts for when Pokémon spawn.
 '''
 
 [[dependencies.spawn-alerts]]
